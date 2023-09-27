@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programming\\RockySite\\RockySite\\RockySite.csproj": {}
+    "C:\\Programming\\ASP.NET-Study\\RockySite\\RockySite.csproj": {}
   },
   "projects": {
-    "C:\\Programming\\RockySite\\RockySite\\RockySite.csproj": {
+    "C:\\Programming\\ASP.NET-Study\\RockySite\\RockySite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programming\\RockySite\\RockySite\\RockySite.csproj",
+        "projectUniqueName": "C:\\Programming\\ASP.NET-Study\\RockySite\\RockySite.csproj",
         "projectName": "RockySite",
-        "projectPath": "C:\\Programming\\RockySite\\RockySite\\RockySite.csproj",
+        "projectPath": "C:\\Programming\\ASP.NET-Study\\RockySite\\RockySite.csproj",
         "packagesPath": "C:\\Users\\PorterCat\\.nuget\\packages\\",
-        "outputPath": "C:\\Programming\\RockySite\\RockySite\\obj\\",
+        "outputPath": "C:\\Programming\\ASP.NET-Study\\RockySite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,26 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
